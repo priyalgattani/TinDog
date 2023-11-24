@@ -1,0 +1,185 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 5%;
+}
+
+/* sections */
+.colored-section {
+  background-color: #DD4A48;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* headings */
+.main-heading {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* title  */
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.download-button {
+  margin: 5% 3% 2% 2%;
+}
+
+.title-row {
+  overflow: hidden;
+  padding: 3rem 3.5rem 3rem 0;
+}
+
+.iphone6 {
+  height: 27rem;
+  transform: rotate(25deg);
+  margin: 0 10% 0 0;
+  position: absolute;
+}
+
+/* navigation bar */
+nav {
+  padding-bottom: 1rem;
+  background-color: #DD4A48;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+}
+
+/* features section  */
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 2rem;
+}
+
+.icon {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #DD4A48;
+}
+
+/* testimonial section */
+#testimonials {
+  background-color: #ff4c68;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+.pricing-card-title {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* .pricing-cards {
+  padding: 5% 0 5% 12% ;
+} */
+.card-container {
+  padding: 3%;
+}
+
+/* call for action */
+/* footer */
+.social-icon {
+  margin: 20px 15px;
+}
+
+/* {
+    font-family: 'Cairo', sans-serif;
+} */
+/* mobile and tablet friendly */
+@media (max-width:990px) {
+  #title {
+    text-align: center;
+  }
+
+  .container-fluid {
+    padding: 3%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .title-row {
+    padding: 0;
+    overflow: visible;
+  }
+
+  .iphone6 {
+    height: 20rem;
+    transform: rotate(0deg);
+    position: static;
+    margin: 0;
+  }
+}
